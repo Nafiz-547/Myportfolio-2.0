@@ -254,7 +254,7 @@ export default function Home() {
                 {/* Image Content - 55% */}
                 <div className="w-full md:w-[100%] bg-silver-mist/10 flex items-center justify-center p-8 order-1 md:order-2 relative min-h-[300px]">
                   <Image
-                    src="/projects/Zoom.jpeg"
+                    src="/projects/zoom.jpeg"
                     alt="Zoom-Inspired UI Image"
                     fill
                     className="object-contain p-4 md:p-8 hover:scale-105 transition-transform duration-500 ease-out"
