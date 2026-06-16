@@ -102,7 +102,7 @@ export default function Home() {
               <h3 className="text-[28px] font-semibold text-ink tracking-[-0.07em] mb-4 leading-tight">
                 Programming Teknokrat
               </h3>
-              <p className="text-[17px] text-graphite font-normal mb-6 flex-grow leading-[1.47]">
+              <p className="text-body text-graphite font-normal mb-6 grow leading-[1.47]">
                 Chairman & Unit Lead. Orchestrating the strategic direction and
                 fostering a collaborative growth environment for 5 specialized
                 IT divisions.
@@ -110,14 +110,14 @@ export default function Home() {
             </div>
 
             {/* Card 2: Protek Mentor */}
-            <div className="bg-canvas rounded-[28px] p-[28px] flex flex-col h-full">
-              <span className="text-[12px] font-semibold tracking-tight uppercase text-graphite mb-2">
+            <div className="bg-canvas rounded-3xl p-28 flex flex-col h-full">
+              <span className="text-caption font-semibold tracking-tight uppercase text-graphite mb-2">
                 Mar 2026 - Present
               </span>
               <h3 className="text-[28px] font-semibold text-ink tracking-[-0.07em] mb-4 leading-tight">
                 UI/UX Student-Mentor
               </h3>
-              <p className="text-[17px] text-graphite font-normal mb-6 flex-grow leading-[1.47]">
+              <p className="text-body text-graphite font-normal mb-6 grow leading-[1.47]">
                 Analyzing complex system problems to generate intuitive,
                 user-oriented visual and architectural solutions for junior
                 members.
@@ -125,14 +125,14 @@ export default function Home() {
             </div>
 
             {/* Card 3: HITEKMASI */}
-            <div className="bg-canvas rounded-[28px] p-[28px] flex flex-col h-full">
-              <span className="text-[12px] font-semibold tracking-tight uppercase text-graphite mb-2">
+            <div className="bg-canvas rounded-3xl p-28 flex flex-col h-full">
+              <span className="text-caption font-semibold tracking-tight uppercase text-graphite mb-2">
                 Nov 2024 - Present
               </span>
               <h3 className="text-[28px] font-semibold text-ink tracking-[-0.07em] mb-4 leading-tight">
                 Himpunan Mahasiswa TI
               </h3>
-              <p className="text-[17px] text-graphite font-normal mb-6 flex-grow leading-[1.47]">
+              <p className="text-body text-graphite font-normal mb-6 grow leading-[1.47]">
                 Education Division Member. Spearheaded the conceptualization and
                 launch of &quot;Code Camp Community,&quot; strengthening logic
                 programming fundamentals.
@@ -140,14 +140,14 @@ export default function Home() {
             </div>
 
             {/* Card 4: GDGoC */}
-            <div className="bg-canvas rounded-[28px] p-[28px] flex flex-col h-full">
-              <span className="text-[12px] font-semibold tracking-tight uppercase text-graphite mb-2">
+            <div className="bg-canvas rounded-3xl p-28 flex flex-col h-full">
+              <span className="text-caption font-semibold tracking-tight uppercase text-graphite mb-2">
                 Nov 2025 - Present
               </span>
               <h3 className="text-[28px] font-semibold text-ink tracking-[-0.07em] mb-4 leading-tight">
                 Google Developers Group
               </h3>
-              <p className="text-[17px] text-graphite font-normal mb-6 flex-grow leading-[1.47]">
+              <p className="text-body text-graphite font-normal mb-6 grow leading-[1.47]">
                 Participated in Study Jams focusing on cloud technicalities and
                 UI/UX tracks, leveraging developer ecosystems for
                 industry-standard digital workflows.
