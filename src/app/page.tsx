@@ -240,7 +240,7 @@ export default function Home() {
                     href="https://www.figma.com/design/wEkt7ww9C2BjFVT7x8mobQ/CampusCrave?node-id=171-355&t=xLXLq9rwhzJaSjFn-1"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[17px] font-medium text-cobalt-link hover:underline transition-all"
+                    className="text-body font-medium text-cobalt-link hover:underline transition-all"
                   >
                     View Project ↗
                   </a>
