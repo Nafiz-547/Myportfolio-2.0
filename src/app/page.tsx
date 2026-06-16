@@ -10,13 +10,13 @@ export default function Home() {
           {/* Logo / Nama */}
           <Link
             href="/"
-            className="text-[14px] font-semibold text-ink tracking-tight"
+            className="text-body-sm font-semibold text-ink tracking-tight"
           >
             Muhammad Nafiz
           </Link>
 
           {/* Tautan Navigasi (Sembunyi di layar kecil) */}
-          <div className="hidden md:flex gap-8 text-[12px] text-ink">
+          <div className="hidden md:flex gap-8 text-caption text-ink">
             <Link
               href="#philosophy"
               className="hover:text-azure transition-colors"
@@ -40,7 +40,7 @@ export default function Home() {
           {/* CTA Button - Satu-satunya elemen berwarna biru Azure di navigasi */}
           <a
             href="mailto:muhamadnafiz547@gmail.com"
-            className="bg-azure text-snow px-4.5 py-1.5 rounded-full text-[12px] font-normal hover:bg-blue-600 transition-colors duration-200"
+            className="bg-azure text-snow px-4.5 py-1.5 rounded-full text-caption font-normal hover:bg-blue-600 transition-colors duration-200"
           >
             Contact Me
           </a>
@@ -48,21 +48,21 @@ export default function Home() {
       </nav>
 
       {/* 2. HERO SECTION */}
-      <main className="w-full max-w-[1200px] mx-auto px-4 pt-32 pb-40 flex flex-col items-center text-center">
+      <main className="w-full max-w-300 mx-auto px-4 pt-32 pb-40 flex flex-col items-center text-center">
         {/* Eyebrow / Label Kecil */}
-        <span className="text-[14px] text-graphite font-semibold tracking-tight uppercase mb-4">
+        <span className="text-body-sm text-graphite font-semibold tracking-tight uppercase mb-4">
           Portofolio 2026
         </span>
 
         {/* Headline Raksasa (SF Pro Display, weight 700, negative tracking ekstrim) */}
-        <h1 className="text-[56px] md:text-[96px] font-bold text-ink leading-[1.04] tracking-[-1.5px] md:tracking-[-2.11px] max-w-4xl">
+        <h1 className="text-heading-lg md:text-display font-bold text-ink leading-[1.04] tracking-[-1.5px] md:tracking-[-2.11px] max-w-4xl">
           Holistic Systems.
           <br />
           Intuitive Design.
         </h1>
 
         {/* Sub-teks (SF Pro Text, weight 400) */}
-        <p className="mt-6 text-[17px] md:text-[20px] text-graphite leading-[1.47] tracking-[-0.1px] max-w-2xl">
+        <p className="mt-6 text-body md:text-subheading text-graphite leading-[1.47] tracking-[-0.1px] max-w-2xl">
           An Information Technology generalist bridging the gap between IT
           Governance, scalable infrastructure, and practical UI/UX Design.
         </p>
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="mt-10 flex gap-4">
           <Link
             href="#projects"
-            className="bg-ink text-snow px-6 py-3 rounded-full text-[17px] hover:bg-gray-800 transition-colors duration-200"
+            className="bg-ink text-snow px-6 py-3 rounded-full text-body hover:bg-gray-800 transition-colors duration-200"
           >
             View Projects
           </Link>
@@ -80,23 +80,23 @@ export default function Home() {
 
       {/* 3. EXPERIENCE & LEADERSHIP SECTION */}
       <section id="experience" className="w-full bg-snow py-32">
-        <div className="max-w-[1200px] mx-auto px-4">
+        <div className="max-w-300 mx-auto px-4">
           {/* Section Header (Rata Kiri) */}
-          <div className="mb-16 px-[12px]">
-            <h2 className="text-[40px] font-bold text-ink tracking-[-0.6px] leading-[1.17]">
+          <div className="mb-16 px-12">
+            <h2 className="text-heading font-bold text-ink tracking-[-0.6px] leading-[1.17]">
               Leading with Strategy.
             </h2>
-            <p className="mt-4 text-[20px] font-light text-ink tracking-[-0.2px] leading-[1.40] max-w-[560px]">
+            <p className="mt-4 text-subheading font-light text-ink tracking-[-0.2px] leading-[1.40] max-w-140">
               Building scalable frameworks, orchestrating technical growth, and
               fostering collaborative learning environments.
             </p>
           </div>
 
           {/* 2x2 Feature Card Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-[10px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
             {/* Card 1: Protek Chairman */}
-            <div className="bg-canvas rounded-[28px] p-[28px] flex flex-col h-full">
-              <span className="text-[12px] font-semibold tracking-tight uppercase text-graphite mb-2">
+            <div className="bg-canvas rounded-3xl p-28 flex flex-col h-full">
+              <span className="text-caption font-semibold tracking-tight uppercase text-graphite mb-2">
                 Mar 2026 - Present
               </span>
               <h3 className="text-[28px] font-semibold text-ink tracking-[-0.07em] mb-4 leading-tight">
@@ -294,7 +294,7 @@ export default function Home() {
                     className="object-contain p-4 md:p-8 hover:scale-105 transition-transform duration-500 ease-out"
                   />
                 </div>
-                
+
                 <div className="p-[40px] flex flex-col flex-grow">
                   <span className="text-[12px] font-semibold tracking-tight uppercase text-graphite mb-2">
                     Conceptual Project
