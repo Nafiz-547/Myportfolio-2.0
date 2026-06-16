@@ -159,29 +159,29 @@ export default function Home() {
 
       {/* 4. PROJECTS SECTION */}
       <section id="projects" className="w-full bg-canvas py-32">
-        <div className="max-w-[1200px] mx-auto px-4">
+        <div className="max-w-300 mx-auto px-4">
           {/* Section Header */}
-          <div className="mb-16 px-[12px]">
-            <h2 className="text-[40px] font-bold text-ink tracking-[-0.6px] leading-[1.17]">
+          <div className="mb-16 px-12">
+            <h2 className="text-heading font-bold text-ink tracking-[-0.6px] leading-[1.17]">
               Selected Works.
             </h2>
-            <p className="mt-4 text-[20px] font-light text-ink tracking-[-0.2px] leading-[1.40] max-w-[560px]">
+            <p className="mt-4 text-subheading font-light text-ink tracking-[-0.2px] leading-[1.40] max-w-140">
               Translating complex user friction points into scalable,
               interactive prototypes and logical system architectures.
             </p>
           </div>
 
-          <div className="flex flex-col gap-[10px]">
+          <div className="flex flex-col gap-2.5">
             {/* Project 1: SigerTrip (Text Left, Image Right) */}
-            <div className="bg-snow rounded-[28px] overflow-hidden flex flex-col md:flex-row">
-              <div className="w-full md:w-[45%] p-[40px] md:p-[56px] flex flex-col justify-center order-2 md:order-1">
-                <span className="text-[12px] font-semibold tracking-tight uppercase text-caution mb-2">
+            <div className="bg-snow rounded-3xl overflow-hidden flex flex-col md:flex-row">
+              <div className="w-full md:w-[45%] p-40 md:p-14 flex flex-col justify-center order-2 md:order-1">
+                <span className="text-caption font-semibold tracking-tight uppercase text-caution mb-2">
                   1st Place Winner • IST.CO 2026
                 </span>
-                <h3 className="text-[40px] font-bold text-ink tracking-[-0.6px] mb-4 leading-[1.17]">
+                <h3 className="text-heading font-bold text-ink tracking-[-0.6px] mb-4 leading-[1.17]">
                   SigerTrip.
                 </h3>
-                <p className="text-[17px] text-graphite font-normal mb-8 leading-[1.47]">
+                <p className="text-body text-graphite font-normal mb-8 leading-[1.47]">
                   A hyper-local tour provider platform optimizing regional
                   tourism. Features include SigerAI for automated routing and a
                   Hybrid Booking system integrated with WhatsApp API to empower
@@ -192,7 +192,7 @@ export default function Home() {
                     href="https://www.figma.com/deck/deiM5sdXZb7SjOyl9QaX0X/PPT_UIUX_IST.CO2026_UX-PROTEK_Universitas-Teknokrat-Indonesia_SigerTrip?node-id=2011-766&t=7QJhmcZqgsmtbKBa-1"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[17px] font-medium text-cobalt-link hover:underline transition-all"
+                    className="text-body font-medium text-cobalt-link hover:underline transition-all"
                   >
                     View Project ↗
                   </a>
