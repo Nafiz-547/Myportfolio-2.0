@@ -222,14 +222,14 @@ export default function Home() {
                   className="w-full h-auto max-h-100 object-contain rounded-xl shadow-sm"
                 />
               </div>
-              <div className="w-full md:w-[45%] p-[40px] md:p-[56px] flex flex-col justify-center">
-                <span className="text-[12px] font-semibold tracking-tight uppercase text-graphite mb-2">
+              <div className="w-full md:w-[45%] p-40 md:p-14 flex flex-col justify-center">
+                <span className="text-caption font-semibold tracking-tight uppercase text-graphite mb-2">
                   GDGoC UI/UX Study Jam
                 </span>
-                <h3 className="text-[40px] font-bold text-ink tracking-[-0.6px] mb-4 leading-[1.17]">
+                <h3 className="text-heading font-bold text-ink tracking-[-0.6px] mb-4 leading-[1.17]">
                   Campus Crave.
                 </h3>
-                <p className="text-[17px] text-graphite font-normal mb-8 leading-[1.47]">
+                <p className="text-body text-graphite font-normal mb-8 leading-[1.47]">
                   A functional interactive prototype translated from a complex
                   design brief within a one-week sprint. Established consistent
                   visual UI themes prioritizing critical user flows under tight
