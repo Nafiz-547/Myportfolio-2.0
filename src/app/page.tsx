@@ -199,7 +199,7 @@ export default function Home() {
                 </div>
               </div>
               {/* Image Content - 55% */}
-              <div className="w-full md:w-[55%] bg-silver-mist/10 flex items-center justify-center p-8 order-1 md:order-2 relative min-h-[300px]">
+              <div className="w-full md:w-[55%] bg-silver-mist/10 flex items-center justify-center p-8 order-1 md:order-2 relative min-h-75">
                 <Image
                   src="/projects/SigerTrip.jpeg"
                   alt="SigerTrip Presentation Slide"
@@ -210,16 +210,16 @@ export default function Home() {
             </div>
 
             {/* Project 2: Campus Crave (Image Left, Text Right) */}
-            <div className="bg-snow rounded-[28px] overflow-hidden flex flex-col md:flex-row">
+            <div className="bg-snow rounded-3xl overflow-hidden flex flex-col md:flex-row">
               {/* Video Content - 55% */}
-              <div className="w-full md:w-[55%] bg-silver-mist/10 flex items-center justify-center p-8 relative min-h-[300px]">
+              <div className="w-full md:w-[55%] bg-silver-mist/10 flex items-center justify-center p-8 relative min-h-75">
                 <video
                   src="/projects/CampusCrave.mp4"
                   autoPlay
                   loop
                   muted
                   playsInline
-                  className="w-full h-auto max-h-[400px] object-contain rounded-xl shadow-sm"
+                  className="w-full h-auto max-h-100 object-contain rounded-xl shadow-sm"
                 />
               </div>
               <div className="w-full md:w-[45%] p-[40px] md:p-[56px] flex flex-col justify-center">
