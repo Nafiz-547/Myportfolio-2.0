@@ -248,11 +248,11 @@ export default function Home() {
               </div>
             </div>
             {/* Grid for Project 3 & 4 (Zoom & SPADA) */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-[10px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
               {/* Project 3: Zoom-Inspired */}
-              <div className="bg-snow rounded-[28px] overflow-hidden flex flex-col h-full">
+              <div className="bg-snow rounded-3xl overflow-hidden flex flex-col h-full">
                 {/* Image Content - 55% */}
-                <div className="w-full md:w-[100%] bg-silver-mist/10 flex items-center justify-center p-8 order-1 md:order-2 relative min-h-[300px]">
+                <div className="w-full md:w-full bg-silver-mist/10 flex items-center justify-center p-8 order-1 md:order-2 relative min-h-[300px]">
                   <Image
                     src="/projects/zoom.jpeg"
                     alt="Zoom-Inspired UI Image"
