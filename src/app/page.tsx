@@ -252,7 +252,7 @@ export default function Home() {
               {/* Project 3: Zoom-Inspired */}
               <div className="bg-snow rounded-3xl overflow-hidden flex flex-col h-full">
                 {/* Image Content - 55% */}
-                <div className="w-full md:w-full bg-silver-mist/10 flex items-center justify-center p-8 order-1 md:order-2 relative min-h-[300px]">
+                <div className="w-full md:w-full bg-silver-mist/10 flex items-center justify-center p-8 order-1 md:order-2 relative min-h-75">
                   <Image
                     src="/projects/zoom.jpeg"
                     alt="Zoom-Inspired UI Image"
