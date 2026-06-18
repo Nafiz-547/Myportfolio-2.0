@@ -260,14 +260,14 @@ export default function Home() {
                     className="object-contain p-4 md:p-8 hover:scale-105 transition-transform duration-500 ease-out"
                   />
                 </div>
-                <div className="p-[40px] flex flex-col flex-grow">
-                  <span className="text-[12px] font-semibold tracking-tight uppercase text-graphite mb-2">
+                <div className="p-40 flex flex-col grow">
+                  <span className="text-caption font-semibold tracking-tight uppercase text-graphite mb-2">
                     MySkill Bootcamp
                   </span>
                   <h3 className="text-[28px] font-semibold text-ink tracking-[-0.07em] mb-4 leading-tight">
                     Video Conference App
                   </h3>
-                  <p className="text-[17px] text-graphite font-normal mb-8 flex-grow leading-[1.47]">
+                  <p className="text-body text-graphite font-normal mb-8 grow leading-[1.47]">
                     An end-to-end interactive prototype delivering scalable
                     design components, structural information architecture, and
                     validated usability testing.
@@ -276,7 +276,7 @@ export default function Home() {
                     href="https://www.figma.com/deck/FBlPatT9zhxRnvzhZXnV2H/Zoom-Revamp?node-id=2002-2&t=xLXLq9rwhzJaSjFn-1"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[17px] font-medium text-cobalt-link hover:underline transition-all"
+                    className="text-body font-medium text-cobalt-link hover:underline transition-all"
                   >
                     View Project ↗
                   </a>
