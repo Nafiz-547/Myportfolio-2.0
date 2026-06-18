@@ -284,9 +284,9 @@ export default function Home() {
               </div>
 
               {/* Project 4: SPADA Academic */}
-              <div className="bg-snow rounded-[28px] overflow-hidden flex flex-col h-full">
+              <div className="bg-snow rounded-3xl overflow-hidden flex flex-col h-full">
                 {/* Image Content - 55% */}
-                <div className="w-full md:w-[100%] bg-silver-mist/10 flex items-center justify-center p-8 order-1 md:order-2 relative min-h-[300px]">
+                <div className="w-full md:w-full bg-silver-mist/10 flex items-center justify-center p-8 order-1 md:order-2 relative min-h-[300px]">
                   <Image
                     src="/projects/SPADA.jpeg"
                     alt="SPADA Academic UI Image"
@@ -295,14 +295,14 @@ export default function Home() {
                   />
                 </div>
 
-                <div className="p-[40px] flex flex-col flex-grow">
-                  <span className="text-[12px] font-semibold tracking-tight uppercase text-graphite mb-2">
+                <div className="p-40 flex flex-col flex-grow">
+                  <span className="text-caption font-semibold tracking-tight uppercase text-graphite mb-2">
                     Conceptual Project
                   </span>
                   <h3 className="text-[28px] font-semibold text-ink tracking-[-0.07em] mb-4 leading-tight">
                     SPADA Academic
                   </h3>
-                  <p className="text-[17px] text-graphite font-normal mb-8 flex-grow leading-[1.47]">
+                  <p className="text-body text-graphite font-normal mb-8 flex-grow leading-[1.47]">
                     Explored end-to-end UI/UX design methodologies to simulate
                     essential student learning and administration workflows with
                     core visual hierarchies.
@@ -311,7 +311,7 @@ export default function Home() {
                     href="https://www.figma.com/design/2REfsU5drIPBLnPoytV2wh/SPADA?node-id=31-18&t=xLXLq9rwhzJaSjFn-1"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[17px] font-medium text-cobalt-link hover:underline transition-all"
+                    className="text-body font-medium text-cobalt-link hover:underline transition-all"
                   >
                     View Project ↗
                   </a>
