@@ -324,11 +324,11 @@ export default function Home() {
 
       {/* 5. FOOTER */}
       <footer className="w-full bg-canvas py-12 border-t border-gray-200/50">
-        <div className="max-w-[1200px] mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-[12px] text-graphite font-normal">
+        <div className="max-w-300 mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-caption text-graphite font-normal">
             © 2026 Muhammad Nafiz.
           </p>
-          <div className="flex gap-6 text-[12px] text-graphite">
+          <div className="flex gap-6 text-caption text-graphite">
             <a
               href="https://linkedin.com/in/muhammadnafiz547"
               target="_blank"
